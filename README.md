@@ -11,6 +11,23 @@
 - 📊 *Dashboard-ready Output*: Structured results for integration with Streamlit or Power BI  
 - 🛠️ *Modular Design*: Easily extendable for civic audits, smart city mapping, or AR overlays
 
+# 📁 Project Structure
+  camsnare/
+├── signal_detection/
+│   └── bluetooth_scan.py
+│   └── wifi_scan.py
+├── visual_detection/
+│   └── yolo_inference.py
+│   └── motion_analysis.py
+├── fusion_engine/
+│   └── fusion_logic.py
+├── dashboard/
+│   └── app.py
+├── data/
+│   └── detections.db
+├── README.md
+└── requirements.txt
+
 ---
 
 ## 📦 Use Cases
@@ -45,10 +62,29 @@ This project is designed to evolve into a *scalable, deployable system* that can
 
 ---
 
-## 🛠️ Setup
+## ⚠️ Ethical Considerations
 
-```bash
-git clone https://github.com/yourusername/camsnare.git
-cd camsnare
-pip install -r requirements.txt
-python camsnare.py --image path/to/image.jpg
+CamSnare is built with privacy and transparency in mind. Users must comply with local laws and avoid unauthorized scanning or surveillance. This tool is intended for personal awareness and ethical use only.
+
+---
+
+## 📌 Future Roadmap
+
+- 📱 Mobile app integration (Android/iOS)
+- 🌐 Cloud sync and remote monitoring
+- 🔥 Thermal detection module
+- 🧠 AI assistant for voice alerts
+
+---
+
+## 👩‍💻 Author
+
+Anjali  
+Code. Lead. Inspire. | Leading With Algorithms and Vision | AI Explorer  
+LinkedIn • GitHub
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
