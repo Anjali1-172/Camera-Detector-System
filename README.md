@@ -1,6 +1,6 @@
 # 📸 CamSnare
 
-*CamSnare* is a lightweight Python tool that detects surveillance cameras in your vicinity using image input and metadata analysis. Designed for privacy-conscious users, civic tech advocates, and developers exploring ethical AI, CamSnare helps you reclaim awareness in monitored spaces.
+*CamSnare* is a lightweight Python tool that detects surveillance cameras in your vicinity . Designed for privacy-conscious users, civic tech advocates, and developers exploring ethical AI, CamSnare helps you reclaim awareness in monitored spaces.
 
 ---
 
@@ -12,21 +12,21 @@
 - 🛠️ *Modular Design*: Easily extendable for civic audits, smart city mapping, or AR overlays
 
 # 📁 Project Structure
-  camsnare/
-├── signal_detection/
-│   └── bluetooth_scan.py
-│   └── wifi_scan.py
-├── visual_detection/
-│   └── yolo_inference.py
-│   └── motion_analysis.py
-├── fusion_engine/
-│   └── fusion_logic.py
-├── dashboard/
-│   └── app.py
-├── data/
-│   └── detections.db
-├── README.md
-└── requirements.txt
+  camsnare/  
+├── signal_detection/\
+│   └── bluetooth_scan.py \
+│   └── wifi_scan.py  \
+├── visual_detection/\
+│   └── yolo_inference.py\
+│   └── motion_analysis.py\
+├── fusion_engine/\
+│   └── fusion_logic.py\
+├── dashboard/\
+│   └── app.py\
+├── data/\
+│   └── detections.db\
+├── README.md\
+└── requirements.txt\
 
 ---
 
